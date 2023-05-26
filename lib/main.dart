@@ -1,9 +1,7 @@
-import 'package:application/locator.dart';
-import 'package:application/view/home_page.dart';
+import 'package:application/firstpage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  setUp();
   runApp(const MyApp());
 }
 
@@ -13,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: HomePage(),
+      home: FirstPage(),
     );
   }
 }
